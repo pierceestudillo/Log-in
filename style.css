@@ -1,0 +1,54 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background: url(img/sdcabg.jpg);
+  background-position: absolute;
+  background-size: cover;
+ 
+}
+
+header{
+  z-index: 1;
+  position: fixed;
+  background: #282424;
+  padding: 20px;
+  width: calc(100% - 0%);
+  top: 0;
+  height: 30px;
+}
+ 
+
+.left_area h3{
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.left_area span{
+  color: #e60000;
+}
+
+.login_btn{
+  padding: 5px;
+  background: #e60000;
+  text-decoration: none;
+  float: right;
+  margin-top: -30px;
+  margin-right: 40px;
+  border-radius: 2px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  transition: 0.5s;
+  transition-property: background;
+}
+
+.login_btn:hover{
+  background:#b30000;
+}
+
+
+
